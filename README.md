@@ -1,4 +1,4 @@
-﻿# 🛡️ MsgVault – Secure Offline Notification & Media Saver
+# 🛡️ MsgVault – Secure Offline Notification & Media Saver
 **Developed by Dhiraj**
 
 MsgVault is a privacy-first, 100% offline notification saver and deleted media recovery utility for Android. All your messages, media, and notification logs are stored inside an encrypted SQLCipher database right on your device.
@@ -6,7 +6,7 @@ MsgVault is a privacy-first, 100% offline notification saver and deleted media r
 ---
 
 ## 🚀 Download & Installation
-- 📥 **Latest Stable Release**: [Download MsgVault APK (Direct Link)](https://files.catbox.moe/xp0fsw.apk)
+- 📥 **Latest Stable Release**: [Download MsgVault APK (Direct Link)](https://files.catbox.moe/0n22lj.apk)
 - **Target Android Version**: Android 8.0 to Android 15+
 - **Architecture**: Universal APK (ARM64, ARMv7, x86_64)
 
