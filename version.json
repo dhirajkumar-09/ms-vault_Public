@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 5,
-  "latestVersionName": "1.0.4",
-  "releaseNotes": "🚀 Mega Fix & Update (v1.0.4) by Dhiraj:\n• 📥 WhatsApp Status Saver Scoped Storage Fix: Full Android 11, 12, 13, 14, 15 support via dual SAF DocumentFile & All Files Access engine\n• 🎨 Fixed Chip Navbar Visibility: High contrast colors for 'All', 'Photos', 'Videos', 'WhatsApp', 'WA Business' (never blank/white-on-white again!)\n• 🔄 Enhanced Refresh Controls: High-visibility toolbar refresh icon + new in-screen 'Refresh Statuses' button\n• 🎙️ Deleted Voice Note Recovery with In-Chat Audio Player\n• 📄 Export Chat to PDF (1-tap document sharing)\n• 100% Data Preservation: All your existing saved messages and media remain intact",
+  "latestVersionCode": 6,
+  "latestVersionName": "1.0.5",
+  "releaseNotes": "🌟 Premium UI & Status Saver Action Buttons Overhaul (v1.0.5) by Dhiraj:\n• 🎨 Ultra-Premium Status Card Design: High-elevation rounded cards (18dp) with gradient scrims, frosted glass badges, and smooth ripples\n• 💎 High-Visibility Save & Share Buttons: Vibrant emerald Save circular button & frosted Share button with modern vector icons\n• 🖼️ Immersive Preview Modal: Rounded dark glass bottom sheet with full-width Save to Gallery and Share buttons\n• 🔄 High-Visibility Refresh Controls: Crisp vector refresh icon on royal blue toolbar + in-screen refresh\n• 🎙️ Deleted Voice Note Recovery & In-Chat Audio Player\n• 📄 Export Chat to PDF (1-tap document sharing)\n• 100% Data Preservation: All your existing saved messages and media remain intact",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-19T22:30:00Z"
+  "publishedAt": "2026-10-19T22:40:00Z"
 }
