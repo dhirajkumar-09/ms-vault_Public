@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 3,
-  "latestVersionName": "1.0.2",
-  "releaseNotes": "🚀 New Update (v1.0.2) by Dhiraj:\n• Complete message context preservation: Full big text capture so WhatsApp & chat messages are never cut off\n• Multi-message & historic chat context support (no missed messages)\n• WhatsApp Group conversation auto-threading with sender attribution\n• Fix for repeated update prompt loop\n• 100% Data Preservation: All your existing saved messages and media remain intact",
+  "latestVersionCode": 4,
+  "latestVersionName": "1.0.3",
+  "releaseNotes": "🚀 Mega Update (v1.0.3) by Dhiraj:\n• 📥 WhatsApp Status Saver: Save HD photos & videos directly to gallery with full-screen preview & 1-tap save/share\n• 🎙️ Deleted Voice Note Recovery: Automatically capture and preserve deleted WhatsApp voice notes with built-in audio player (Play/Pause, seekbar, timer)\n• 📄 Export Chat to PDF: Convert your full chat history into professionally formatted A4 PDF documents with 1-tap sharing\n• 100% Data Preservation: All your existing saved messages and media remain intact",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-19T21:20:00Z"
+  "publishedAt": "2026-10-19T22:15:00Z"
 }
