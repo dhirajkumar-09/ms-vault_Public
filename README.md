@@ -6,7 +6,7 @@ MsgVault is a privacy-first, 100% offline notification saver and deleted media r
 ---
 
 ## 🚀 Download & Installation
-- 📥 **Latest Stable Release**: [Download MsgVault APK (Direct Link)](https://files.catbox.moe/eujvjo.apk)
+- 📥 **Direct Download (High Speed & Unblocked)**: [Download MsgVault.apk](https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk)
 - **Target Android Version**: Android 8.0 to Android 15+
 - **Architecture**: Universal APK (ARM64, ARMv7, x86_64)
 
@@ -22,7 +22,7 @@ MsgVault is a privacy-first, 100% offline notification saver and deleted media r
 ---
 
 ## 📱 How to Install & Configure
-1. Download and install `MsgVault.apk`.
+1. Tap the download link above and install `MsgVault.apk`.
 2. Open the app and grant **Notification Access** permissions.
 3. *If your phone shows "Restricted Setting" (Android 13/14+)*:
    - Tap **"🔓 Phone says 'Restricted Setting'? Tap Here"**.
