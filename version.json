@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 2,
-  "latestVersionName": "1.0.1",
-  "releaseNotes": "🚀 MsgVault v1.0.1 by Dhiraj:\n• High-contrast button styling for Restricted Settings guidance\n• 100% English Developer Control Hub with live telemetry\n• Automatic in-app update notifications for all users\n• 100% Data Preservation: All your existing saved messages and media remain intact",
+  "latestVersionCode": 3,
+  "latestVersionName": "1.0.2",
+  "releaseNotes": "🚀 New Update (v1.0.2) by Dhiraj:\n• Complete message context preservation: Full big text capture so WhatsApp & chat messages are never cut off\n• Multi-message & historic chat context support (no missed messages)\n• WhatsApp Group conversation auto-threading with sender attribution\n• Fix for repeated update prompt loop\n• 100% Data Preservation: All your existing saved messages and media remain intact",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-19T19:50:00Z"
+  "publishedAt": "2026-10-19T21:20:00Z"
 }
