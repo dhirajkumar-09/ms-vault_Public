@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 10,
-  "latestVersionName": "1.0.9",
-  "releaseNotes": "🛡️ 100% Data Preservation & Auto-Recovery Fix (v1.0.9) by Dhiraj:\n• 🔒 Zero-Data-Loss Architecture: Destructive migration disabled; Room automatically checks and patches missing columns on-the-fly without touching existing messages\n• 🔄 Auto-Recovery Engine: Automatically detects and restores any detached database copies\n• 🌟 Web Developer Dashboard Live Reviews: User ratings & feedback now stream live to Dhiraj's Developer Dashboard with audio chimes and real-time metrics!\n• ⚡ Unified Package ID: In-app updates now seamlessly update the installed app in-place without creating duplicate app icons",
+  "latestVersionCode": 11,
+  "latestVersionName": "1.1.0",
+  "releaseNotes": "🛡️ 1000% Data Preservation & Shadow Vault Architecture (v1.1.0) by Dhiraj:\n• 🔒 Dual-Tier Shadow Persistence: Every message is duplicated into an un-wipeable, crash-proof shadow vault across internal and external storage\n• ⚡ Instant Auto-Recovery Engine: On launch, MsgVault automatically checks database integrity and restores any missing messages from shadow mirrors\n• 🛡️ 1-Tap Data Recovery & Rescue: Dedicated 1-tap tool in 3-dots menu to scan device and rescue messages from previous app installations or backups\n• 🛡️ Android Fragile User Data Protection: App data is protected from accidental deletion on update or uninstall\n• 📦 Unified Package ID: Seamless in-place updates without duplicate apps",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-20T21:35:00Z"
+  "publishedAt": "2026-10-20T22:10:00Z"
 }
