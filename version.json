@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 7,
-  "latestVersionName": "1.0.6",
-  "releaseNotes": "⚡ Complete Chat Context & Offline Catch-Up Engine (v1.0.6) by Dhiraj:\n• 💬 Complete Message Context Saved: Fixed framework ArrayList bundle parsing so rapid messages and multi-message batches from WhatsApp are 100% captured without missing lines\n• 🌐 Offline Data Catch-Up: When mobile data/WiFi is turned back on after being offline, MsgVault scans active notification chains and preserves all missed messages across all chats\n• 🔝 Recent Saved Messages Always Above: Home screen conversation list strictly orders the most recently active chat at the very top (MAX timestamp ordering)\n• 📜 Auto-Scroll to Latest: Chat details automatically open to the most recent messages\n• 🎯 Exact Millisecond De-duplication: Rapid consecutive identical texts (e.g. 'ok', '?') are never dropped\n• 100% Data Preservation: All existing chats and media remain intact",
+  "latestVersionCode": 8,
+  "latestVersionName": "1.0.7",
+  "releaseNotes": "🚀 All Apps Notifications & Android 13+ Restricted Setting Fix (v1.0.7) by Dhiraj:\n• 🌐 All Apps Notifications Capture: Removed Android OS conversation-only filter and added full package visibility (QUERY_ALL_PACKAGES). Notifications from ALL apps (Banking, OTP, Shopping, Social, News, Food delivery) are now 100% saved!\n• 🔓 Android 13/14/15 Restricted Setting Helper: 2-step interactive guide to unlock greyed-out Notification Access on sideloaded APKs effortlessly (App Info -> 3 dots ⋮ -> Allow restricted settings)\n• 📱 Works Without Notification Access: WhatsApp Status Saver, Direct Chat, and PDF Export work 100% even if notification access is not enabled\n• ⚡ Capture All Apps Preset: Toggling 'Monitor all installed apps' or 'Select All' reliably captures every app without dropping",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-20T10:00:00Z"
+  "publishedAt": "2026-10-20T13:10:00Z"
 }
