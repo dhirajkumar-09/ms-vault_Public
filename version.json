@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 9,
-  "latestVersionName": "1.0.8",
-  "releaseNotes": "🚀 User Reviews, Instagram Reels & Quoted Reply Context (v1.0.8) by Dhiraj:\n• ⭐ User Review & Feedback Hub: Users can rate (1-5 stars) and submit feedback directly inside the app; instant live delivery to Developer Dashboard and ntfy.sh live feed!\n• 🎬 Instagram Reels Extraction & Deep Link: Reels are no longer misidentified as generic photos. Automatically captures Reel URL & caption with an interactive 'Watch ➔' card that opens directly in Instagram!\n• ↩️ Quoted Reply Context: When someone replies to a specific message in WhatsApp/Telegram/Instagram, MsgVault captures the original quoted message and displays it in a clean WhatsApp-style quote bubble inside the chat.\n• 🛡️ Safe Room Migration (v4->v5): Existing chat histories, voice notes, and media remain 100% intact without any data loss.",
+  "latestVersionCode": 10,
+  "latestVersionName": "1.0.9",
+  "releaseNotes": "🛡️ 100% Data Preservation & Auto-Recovery Fix (v1.0.9) by Dhiraj:\n• 🔒 Zero-Data-Loss Architecture: Destructive migration disabled; Room automatically checks and patches missing columns on-the-fly without touching existing messages\n• 🔄 Auto-Recovery Engine: Automatically detects and restores any detached database copies\n• 🌟 Web Developer Dashboard Live Reviews: User ratings & feedback now stream live to Dhiraj's Developer Dashboard with audio chimes and real-time metrics!\n• ⚡ Unified Package ID: In-app updates now seamlessly update the installed app in-place without creating duplicate app icons",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-20T21:07:00Z"
+  "publishedAt": "2026-10-20T21:35:00Z"
 }
