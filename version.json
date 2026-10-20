@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 6,
-  "latestVersionName": "1.0.5",
-  "releaseNotes": "🌟 Premium UI & Status Saver Action Buttons Overhaul (v1.0.5) by Dhiraj:\n• 🎨 Ultra-Premium Status Card Design: High-elevation rounded cards (18dp) with gradient scrims, frosted glass badges, and smooth ripples\n• 💎 High-Visibility Save & Share Buttons: Vibrant emerald Save circular button & frosted Share button with modern vector icons\n• 🖼️ Immersive Preview Modal: Rounded dark glass bottom sheet with full-width Save to Gallery and Share buttons\n• 🔄 High-Visibility Refresh Controls: Crisp vector refresh icon on royal blue toolbar + in-screen refresh\n• 🎙️ Deleted Voice Note Recovery & In-Chat Audio Player\n• 📄 Export Chat to PDF (1-tap document sharing)\n• 100% Data Preservation: All your existing saved messages and media remain intact",
+  "latestVersionCode": 7,
+  "latestVersionName": "1.0.6",
+  "releaseNotes": "⚡ Complete Chat Context & Offline Catch-Up Engine (v1.0.6) by Dhiraj:\n• 💬 Complete Message Context Saved: Fixed framework ArrayList bundle parsing so rapid messages and multi-message batches from WhatsApp are 100% captured without missing lines\n• 🌐 Offline Data Catch-Up: When mobile data/WiFi is turned back on after being offline, MsgVault scans active notification chains and preserves all missed messages across all chats\n• 🔝 Recent Saved Messages Always Above: Home screen conversation list strictly orders the most recently active chat at the very top (MAX timestamp ordering)\n• 📜 Auto-Scroll to Latest: Chat details automatically open to the most recent messages\n• 🎯 Exact Millisecond De-duplication: Rapid consecutive identical texts (e.g. 'ok', '?') are never dropped\n• 100% Data Preservation: All existing chats and media remain intact",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-19T22:40:00Z"
+  "publishedAt": "2026-10-20T10:00:00Z"
 }
