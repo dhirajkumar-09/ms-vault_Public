@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 8,
-  "latestVersionName": "1.0.7",
-  "releaseNotes": "🚀 All Apps Notifications & Android 13+ Restricted Setting Fix (v1.0.7) by Dhiraj:\n• 🌐 All Apps Notifications Capture: Removed Android OS conversation-only filter and added full package visibility (QUERY_ALL_PACKAGES). Notifications from ALL apps (Banking, OTP, Shopping, Social, News, Food delivery) are now 100% saved!\n• 🔓 Android 13/14/15 Restricted Setting Helper: 2-step interactive guide to unlock greyed-out Notification Access on sideloaded APKs effortlessly (App Info -> 3 dots ⋮ -> Allow restricted settings)\n• 📱 Works Without Notification Access: WhatsApp Status Saver, Direct Chat, and PDF Export work 100% even if notification access is not enabled\n• ⚡ Capture All Apps Preset: Toggling 'Monitor all installed apps' or 'Select All' reliably captures every app without dropping",
+  "latestVersionCode": 9,
+  "latestVersionName": "1.0.8",
+  "releaseNotes": "🚀 User Reviews, Instagram Reels & Quoted Reply Context (v1.0.8) by Dhiraj:\n• ⭐ User Review & Feedback Hub: Users can rate (1-5 stars) and submit feedback directly inside the app; instant live delivery to Developer Dashboard and ntfy.sh live feed!\n• 🎬 Instagram Reels Extraction & Deep Link: Reels are no longer misidentified as generic photos. Automatically captures Reel URL & caption with an interactive 'Watch ➔' card that opens directly in Instagram!\n• ↩️ Quoted Reply Context: When someone replies to a specific message in WhatsApp/Telegram/Instagram, MsgVault captures the original quoted message and displays it in a clean WhatsApp-style quote bubble inside the chat.\n• 🛡️ Safe Room Migration (v4->v5): Existing chat histories, voice notes, and media remain 100% intact without any data loss.",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-20T13:10:00Z"
+  "publishedAt": "2026-10-20T21:07:00Z"
 }
