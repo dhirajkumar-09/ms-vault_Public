@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 15,
-  "latestVersionName": "1.1.4",
-  "releaseNotes": "☁️ Google Drive Private Cloud Backup & Restore (v1.1.4) by Dhiraj:\n• ☁️ Google Drive Cloud Backup: Securely back up your entire encrypted message history directly to your personal Google Drive account\n• 📥 Google Drive Cloud Restore: 1-Tap restore from your Google Drive backup on any new or existing Android device\n• 🔒 Zero-Knowledge Cryptography: Messages are encrypted on-device with AES-256-GCM before uploading to Google Drive—neither Google nor third parties can decrypt your data\n• 📊 Cloud Status Dashboard: Live tracking of your last Google Drive backup date, time, and backed up message count",
+  "latestVersionCode": 16,
+  "latestVersionName": "1.1.5",
+  "releaseNotes": "☁️ Cloud File Opening & Direct Restore (v1.1.5) by Dhiraj:\n• 📂 Direct Google Drive & Cloud Opening: Fixes opening of backup files shared on the cloud. Tapping a .enc, .bin, or .msgvault file in Google Drive or cloud storage now directly launches MsgVault to decrypt and restore\n• 📤 Cloud Share Sheet Integration: Backup files shared via 'Send a copy' or 'Share' from Google Drive or messaging apps are automatically routed to the restore engine\n• 🔍 Universal Cloud Picker: Enhanced Google Drive file browser allowing seamless selection of all backup archives without greyed-out files\n• 🛡️ Zero-Knowledge On-Device Decryption: Full cryptographic validation of cloud backup streams with instant status updates",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": true,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-21T16:10:00Z"
+  "publishedAt": "2026-10-21T16:30:00Z"
 }
