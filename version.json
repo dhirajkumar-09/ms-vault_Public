@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 18,
-  "latestVersionName": "1.1.7",
-  "releaseNotes": "⚡ Smooth 60 FPS & Fail-Proof Installer Update (v1.1.7) by Dhiraj:\n• 🚀 Zero-Lag Performance: Completely eliminates app freezing and stuttering. Large photo and media attachments now decode asynchronously with an in-memory LruCache, ensuring buttery-smooth 60 FPS scrolling\n• 📦 100% Reliable In-App Update: Fixes update download timeouts and install failures using 32KB streaming buffers, 60s network resilience, and seamless package installer permissions\n• 🛑 No Duplicate Popups: Residual update files in cache are automatically purged on install\n• 💡 Crystal-Clear Guidance: Clear instructions on Android's update/install prompt so every user can update effortlessly with zero data loss",
+  "latestVersionCode": 19,
+  "latestVersionName": "1.1.8",
+  "releaseNotes": "🛡️ Zero-Glitch Fail-Proof Installer & 60 FPS Performance (v1.1.8) by Dhiraj:\n• 🛡️ 100% Fixed 'There was a problem parsing the package': Downloaded APKs are verified with strict integrity check before launching installer.\n• 🚫 No Automatic Popups: Obsolete and corrupt cache files are permanently purged on startup; no repetitive installer prompts.\n• ⚡ 60 FPS Smooth Scrolling: Ultra-fast asynchronous media and database operations.\n• 🔒 100% Data Preservation: All chats, media, and private encryption keys remain completely intact.",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
-  "forceUpdate": true,
+  "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-21T16:55:00Z"
+  "publishedAt": "2026-10-21T17:45:00Z"
 }
