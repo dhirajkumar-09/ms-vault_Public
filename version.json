@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 13,
-  "latestVersionName": "1.1.2",
-  "releaseNotes": "🚀 Context & Reel Preservation Update (v1.1.2) by Dhiraj:\n• 🛡️ Fixed False 'Deleted by Sender': Ordinary messages are never marked deleted; deletion retractions strictly validated with 48h safety window\n• 🎬 Instagram Reels & Share Sheet: Saves real canonical Reel URLs (never raw navigation paths) and stops saving thumbnail images as photos; users can now share Reels directly into MsgVault from Instagram\n• 💬 Complete Chat & Group Context: Preserves WhatsApp group titles, conversation context, notification categories, and URLs without data overwriting",
+  "latestVersionCode": 14,
+  "latestVersionName": "1.1.3",
+  "releaseNotes": "🚀 Continuous Chat & Menu Elegance Update (v1.1.3) by Dhiraj:\n• 💬 Complete Chat Preservation: Fixes missing messages when continuing chatting; captures all messages exchanged from MessagingStyle notifications and eliminates count suffix fragmentation (e.g., 'Alice (2 messages)')\n• 🛡️ Auto-Healing Conversations: Automatically merges previously fragmented chat threads and links user replies back into the active conversation\n• ✨ Modern 3-Dots Popup Styling: Beautifully restyled overflow menu with rounded card corners, card elevation, item ripples, and organized categories",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
-  "forceUpdate": false,
+  "forceUpdate": true,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-21T12:10:00Z"
+  "publishedAt": "2026-10-21T15:15:00Z"
 }
