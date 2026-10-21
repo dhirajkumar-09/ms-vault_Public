@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 11,
-  "latestVersionName": "1.1.0",
-  "releaseNotes": "🛡️ 1000% Data Preservation & Shadow Vault Architecture (v1.1.0) by Dhiraj:\n• 🔒 Dual-Tier Shadow Persistence: Every message is duplicated into an un-wipeable, crash-proof shadow vault across internal and external storage\n• ⚡ Instant Auto-Recovery Engine: On launch, MsgVault automatically checks database integrity and restores any missing messages from shadow mirrors\n• 🛡️ 1-Tap Data Recovery & Rescue: Dedicated 1-tap tool in 3-dots menu to scan device and rescue messages from previous app installations or backups\n• 🛡️ Android Fragile User Data Protection: App data is protected from accidental deletion on update or uninstall\n• 📦 Unified Package ID: Seamless in-place updates without duplicate apps",
+  "latestVersionCode": 12,
+  "latestVersionName": "1.1.1",
+  "releaseNotes": "⭐ UI Polish & Clean Review Experience (v1.1.1) by Dhiraj:\n• ⭐ Default Blank Stars: Rating section now opens with unselected outline stars so users choose their genuine rating\n• 🧼 Clean Protection Dashboard: Removed redundant reviews section from phone dashboard (managed exclusively on developer web hub)\n• 🛡️ 1000% Data Preservation & Shadow Vault: All messages continuously mirrored and protected",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-20T22:10:00Z"
+  "publishedAt": "2026-10-21T06:09:00Z"
 }
