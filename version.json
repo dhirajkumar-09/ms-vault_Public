@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 12,
-  "latestVersionName": "1.1.1",
-  "releaseNotes": "⭐ UI Polish & Clean Review Experience (v1.1.1) by Dhiraj:\n• ⭐ Default Blank Stars: Rating section now opens with unselected outline stars so users choose their genuine rating\n• 🧼 Clean Protection Dashboard: Removed redundant reviews section from phone dashboard (managed exclusively on developer web hub)\n• 🛡️ 1000% Data Preservation & Shadow Vault: All messages continuously mirrored and protected",
+  "latestVersionCode": 13,
+  "latestVersionName": "1.1.2",
+  "releaseNotes": "🚀 Context & Reel Preservation Update (v1.1.2) by Dhiraj:\n• 🛡️ Fixed False 'Deleted by Sender': Ordinary messages are never marked deleted; deletion retractions strictly validated with 48h safety window\n• 🎬 Instagram Reels & Share Sheet: Saves real canonical Reel URLs (never raw navigation paths) and stops saving thumbnail images as photos; users can now share Reels directly into MsgVault from Instagram\n• 💬 Complete Chat & Group Context: Preserves WhatsApp group titles, conversation context, notification categories, and URLs without data overwriting",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-21T06:09:00Z"
+  "publishedAt": "2026-10-21T12:10:00Z"
 }
