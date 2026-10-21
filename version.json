@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 16,
-  "latestVersionName": "1.1.5",
-  "releaseNotes": "☁️ Cloud File Opening & Direct Restore (v1.1.5) by Dhiraj:\n• 📂 Direct Google Drive & Cloud Opening: Fixes opening of backup files shared on the cloud. Tapping a .enc, .bin, or .msgvault file in Google Drive or cloud storage now directly launches MsgVault to decrypt and restore\n• 📤 Cloud Share Sheet Integration: Backup files shared via 'Send a copy' or 'Share' from Google Drive or messaging apps are automatically routed to the restore engine\n• 🔍 Universal Cloud Picker: Enhanced Google Drive file browser allowing seamless selection of all backup archives without greyed-out files\n• 🛡️ Zero-Knowledge On-Device Decryption: Full cryptographic validation of cloud backup streams with instant status updates",
+  "latestVersionCode": 17,
+  "latestVersionName": "1.1.6",
+  "releaseNotes": "🚀 Installer Cache Optimization & Direct Cloud Restore (v1.1.6) by Dhiraj:\n• 🛑 Fixed Repeated Install Popup: Resolves the issue where Android prompted to install repeatedly even after successfully updating. Obsolete APKs in cache are now automatically purged on install\n• 📂 Direct Cloud Backup Opening: Tapping a .enc, .bin, or .msgvault file in Google Drive or cloud storage now directly launches MsgVault to decrypt and restore\n• 📤 Cloud Share Sheet Integration: Backup files shared via 'Send a copy' from Google Drive or messaging apps are automatically routed to the restore engine\n• 🔍 Universal Cloud Picker: Enhanced Google Drive file browser allowing seamless selection of all backup archives without greyed-out files",
   "downloadUrl": "https://github.com/dhirajkumar-09/ms-vault_Public/raw/main/MsgVault.apk",
   "forceUpdate": true,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-21T16:30:00Z"
+  "publishedAt": "2026-10-21T16:38:00Z"
 }
