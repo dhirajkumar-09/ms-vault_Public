@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 19,
-  "latestVersionName": "1.1.8",
-  "releaseNotes": "🛡️ Zero-Glitch Fail-Proof Installer & 60 FPS Performance (v1.1.8) by Dhiraj:\n• 🛡️ 100% Fixed 'There was a problem parsing the package': Downloaded APKs are verified with strict integrity check before launching installer.\n• 🚫 No Automatic Popups: Obsolete and corrupt cache files are permanently purged on startup; no repetitive installer prompts.\n• ⚡ 60 FPS Smooth Scrolling: Ultra-fast asynchronous media and database operations.\n• 🔒 100% Data Preservation: All chats, media, and private encryption keys remain completely intact.",
+  "latestVersionCode": 20,
+  "latestVersionName": "1.1.9",
+  "releaseNotes": "🚀 Seamless In-App Updates & Zero-Glitch Performance (v1.1.9) by Dhiraj:\n• ⚡ 100% Native In-App Updates: Smooth progress bar and fail-proof update installation.\n• 🚫 Eliminated Repeated Installer Popups: Purged all legacy installer loops and cache remnants.\n• 🛡️ Zero Parsing Errors: Triple-check package validation before installation.\n• 🔒 100% Data Preservation: All chats, media, and encryption keys remain completely intact.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-21T17:45:00Z"
+  "publishedAt": "2026-10-22T00:11:00Z"
 }
