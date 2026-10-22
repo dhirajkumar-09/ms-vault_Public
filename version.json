@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 27,
-  "latestVersionName": "1.2.6",
-  "releaseNotes": "☁️ Google Drive & Cloud Vault Fixes (v1.2.6) by Dhiraj:\n• 🎨 Official Google Cloud & Google Drive Icons: Replaced generic emojis with official high-resolution vector logos.\n• ⚡ Seamless Google Drive Backup: Fixed Storage Access Framework stream mode to support all cloud document providers.\n• 📥 Smooth Restore Engine: Streamlined password entry with clear error feedback.\n• 🛡️ In-App Security Certificate: 1-tap live verification of 0/68 Clean antivirus score.\n• 🎁 Home Page 'Share with Friends' Banner: Invite friends with 1 tap right from the home screen.\n• 💬 WhatsApp-Style Persistent Conversations: 1 chat box per person and per group.",
+  "latestVersionCode": 28,
+  "latestVersionName": "1.2.7",
+  "releaseNotes": "🎬 Direct Instagram Reel & 📷 WhatsApp Photos Retention (v1.2.7):\n• 🎬 Direct Instagram Reels: Direct shortcode and deep link extraction ensures clicking 'Watch Reel' opens the exact reel instead of the generic home feed, with clean fallback directly to Instagram Direct messages.\n• 📷 Reliable WhatsApp Photo Saving: Fixed deduplication to preserve every photo in chat history, expanded media scan search window to 5 minutes, added modern Android storage directories, and progressive 3-stage scanning for background downloads.\n• ☁️ Google Drive & Cloud Backup: Verified 100% offline cloud export with official Google vector badges.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
-  "sha256": "6450b7e18191c5895224cc511fa08722c1050a2f399b7cf15db2b455f7ee76e2",
+  "sha256": "227486ba28a9768689d0a63e282b9cf494867bf2ce67484d08a1b2c361a75eb0",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T20:36:00Z"
+  "publishedAt": "2026-10-22T21:55:00Z"
 }
