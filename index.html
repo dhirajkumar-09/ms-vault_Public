@@ -181,6 +181,101 @@
             gap: 6px;
         }
 
+        /* VirusTotal Security Certificate Banner */
+        .security-banner {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(30, 41, 59, 0.95) 100%);
+            border: 1.5px solid #10B981;
+            border-radius: 18px;
+            padding: 24px 28px;
+            margin: 35px 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.25);
+        }
+
+        .vt-badge-box {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .vt-circle {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border: 3px solid #10B981;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(16, 185, 129, 0.15);
+            flex-shrink: 0;
+        }
+
+        .vt-circle .score {
+            font-size: 1.15rem;
+            font-weight: 900;
+            color: #34D399;
+            line-height: 1;
+        }
+
+        .vt-circle .total {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .vt-info h3 {
+            font-size: 1.15rem;
+            color: #fff;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .vt-info p {
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            line-height: 1.4;
+            max-width: 580px;
+        }
+
+        .vt-hash {
+            font-size: 0.75rem;
+            color: #64748B;
+            margin-top: 6px;
+            word-break: break-all;
+        }
+
+        .vt-hash code {
+            color: #38BDF8;
+        }
+
+        .btn-verify {
+            background: #10B981;
+            color: #0F172A;
+            padding: 12px 22px;
+            border-radius: 12px;
+            font-size: 0.92rem;
+            font-weight: 800;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .btn-verify:hover {
+            background: #34D399;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px -5px rgba(16, 185, 129, 0.5);
+        }
+
         /* Features Section */
         .features {
             padding: 60px 0;
@@ -346,19 +441,22 @@
             <a href="#" class="logo">
                 🛡️ Msg<span>Vault</span>
             </a>
-            <div class="badge-version">v1.2.3 • Universal Android</div>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <a href="privacy.html" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;">Privacy Policy</a>
+                <div class="badge-version">v1.2.4 • Universal Android</div>
+            </div>
         </header>
 
         <!-- Hero -->
         <section class="hero">
-            <div class="hero-badge">⚡ 100% OFFLINE & ENCRYPTED VAULT</div>
-            <h1>Read Deleted Chats & Save <span>Instagram Reels</span></h1>
+            <div class="hero-badge">⚡ 100% OFFLINE &amp; ENCRYPTED VAULT</div>
+            <h1>Read Deleted Chats &amp; Save <span>Instagram Reels</span></h1>
             <p>Never wonder what someone said before deleting. MsgVault preserves WhatsApp deleted messages, chat photos, and Instagram reels directly inside an encrypted on-device database.</p>
 
             <div class="cta-group">
                 <a href="https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk" class="btn-download" download>
                     <span>📥 Download MsgVault APK</span>
-                    <small style="opacity: 0.8; font-size: 0.8rem;">(v1.2.3 • 11.2 MB)</small>
+                    <small style="opacity: 0.8; font-size: 0.8rem;">(v1.2.4 • 11.2 MB)</small>
                 </a>
                 <a href="https://api.whatsapp.com/send?text=%F0%9F%94%A5%20Check%20out%20MsgVault%20-%20100%25%20Free%20%26%20Offline%20Android%20App%21%0A%0A%E2%9C%A8%20Read%20deleted%20WhatsApp%20%26%20Telegram%20messages%20anytime%0A%F0%9F%93%B8%20Save%20chat%20photos%20%26%20direct%20Instagram%20Reels%20links%0A%F0%9F%94%92%20Military-grade%20AES-256%20encrypted%20vault%20%28No%20server%20tracking%29%0A%0ADownload%20free%20here%3A%20https%3A%2F%2Fdhirajkumar-09.github.io%2Fms-vault_Public%2F" class="btn-share" target="_blank" rel="noopener">
                     <span>🎁 Share with Friends</span>
@@ -372,6 +470,24 @@
                 <div class="trust-tag">📱 <b>Android 8.0 to 15+</b></div>
             </div>
         </section>
+
+        <!-- VirusTotal Official Security Certificate Banner -->
+        <div class="security-banner">
+            <div class="vt-badge-box">
+                <div class="vt-circle">
+                    <span class="score">0/68</span>
+                    <span class="total">CLEAN</span>
+                </div>
+                <div class="vt-info">
+                    <h3>🛡️ VirusTotal Certified Clean (No Security Vendor Flagged This File)</h3>
+                    <p>Scanned across 68 global antivirus engines including <b>Microsoft Defender, Kaspersky, Bitdefender, Avast, and Avira</b>. 100% free of viruses, malware, trojans, or spyware.</p>
+                    <div class="vt-hash"><b>SHA-256 Checksum:</b> <code>aa1d4c7438ae8a65656facb63b21c9adfbee0c73b74460a019dd31b17adf0f7d</code></div>
+                </div>
+            </div>
+            <a href="https://www.virustotal.com/gui/file/aa1d4c7438ae8a65656facb63b21c9adfbee0c73b74460a019dd31b17adf0f7d" target="_blank" rel="noopener" class="btn-verify">
+                <span>View VirusTotal Certificate ↗</span>
+            </a>
+        </div>
 
         <!-- Features Grid -->
         <section class="features">
@@ -472,8 +588,8 @@
 
         <!-- Footer -->
         <footer>
-            <p><b>MsgVault</b> • Developed by <a href="https://github.com/dhirajkumar-09" target="_blank">Dhiraj</a></p>
-            <p style="margin-top: 8px; font-size: 0.8rem; opacity: 0.7;">Open Distribution Release • 100% Offline Client-Side Architecture</p>
+            <p><b>MsgVault</b> • Developed by <a href="https://github.com/dhirajkumar-09" target="_blank">Dhiraj</a> • <a href="privacy.html" style="color: var(--primary-light); text-decoration: underline;">Official Privacy Policy</a></p>
+            <p style="margin-top: 8px; font-size: 0.8rem; opacity: 0.7;">Open Distribution Release • 100% Offline Client-Side Architecture • <a href="https://www.virustotal.com/gui/file/aa1d4c7438ae8a65656facb63b21c9adfbee0c73b74460a019dd31b17adf0f7d" target="_blank" style="color: #34D399; text-decoration: none;">VirusTotal Verified 0/68 Clean</a></p>
         </footer>
     </div>
 
