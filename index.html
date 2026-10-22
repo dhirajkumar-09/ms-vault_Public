@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MsgVault – Read Deleted Messages & Save Instagram Reels (Official Free APK)</title>
+    <meta name="description" content="Download MsgVault APK for Android. 100% Free & Offline. Read deleted WhatsApp messages, recover chat photos, save Instagram Reels, and archive notifications with military-grade AES-256 encryption.">
+    <meta name="theme-color" content="#4F46E5">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20viewBox=%220%200%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #3730A3;
+            --primary-light: #818CF8;
+            --accent: #10B981;
+            --bg-dark: #0F172A;
+            --bg-card: #1E293B;
+            --text-main: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header / Navbar */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--primary-light);
+        }
+
+        .badge-version {
+            background: rgba(79, 70, 229, 0.2);
+            color: var(--primary-light);
+            border: 1px solid var(--primary);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 60px 0 40px;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: #34D399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 18px;
+            background: linear-gradient(135deg, #FFFFFF 0%, #CBD5E1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, #818CF8 0%, #C084FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 680px;
+            margin: 0 auto 32px;
+        }
+
+        /* Call to Action Buttons */
+        .cta-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .btn-download {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+            color: #fff;
+            padding: 16px 36px;
+            border-radius: 14px;
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.5);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(79, 70, 229, 0.7);
+        }
+
+        .btn-share {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1.5px solid var(--border);
+            color: #fff;
+            padding: 16px 28px;
+            border-radius: 14px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-share:hover {
+            background: var(--bg-card);
+            border-color: #4F46E5;
+        }
+
+        .trust-tags {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+        }
+
+        .trust-tag {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 45px;
+            font-size: 1.05rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary-light);
+        }
+
+        .feature-icon {
+            font-size: 2.2rem;
+            margin-bottom: 14px;
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px;
+            border-radius: 14px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* Step-by-Step Installation */
+        .steps {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 30px;
+            margin: 40px 0;
+        }
+
+        .step-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .step-item {
+            display: flex;
+            gap: 16px;
+        }
+
+        .step-num {
+            background: var(--primary);
+            color: #fff;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            flex-shrink: 0;
+        }
+
+        .step-content h4 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+
+        .step-content p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 50px 0;
+        }
+
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+        }
+
+        .faq-item h4 {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .faq-item p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0 30px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 2.1rem;
+            }
+            .btn-download {
+                width: 100%;
+                justify-content: center;
+            }
+            .btn-share {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <a href="#" class="logo">
+                🛡️ Msg<span>Vault</span>
+            </a>
+            <div class="badge-version">v1.2.3 • Universal Android</div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-badge">⚡ 100% OFFLINE & ENCRYPTED VAULT</div>
+            <h1>Read Deleted Chats & Save <span>Instagram Reels</span></h1>
+            <p>Never wonder what someone said before deleting. MsgVault preserves WhatsApp deleted messages, chat photos, and Instagram reels directly inside an encrypted on-device database.</p>
+
+            <div class="cta-group">
+                <a href="https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk" class="btn-download" download>
+                    <span>📥 Download MsgVault APK</span>
+                    <small style="opacity: 0.8; font-size: 0.8rem;">(v1.2.3 • 11.2 MB)</small>
+                </a>
+                <a href="https://api.whatsapp.com/send?text=%F0%9F%94%A5%20Check%20out%20MsgVault%20-%20100%25%20Free%20%26%20Offline%20Android%20App%21%0A%0A%E2%9C%A8%20Read%20deleted%20WhatsApp%20%26%20Telegram%20messages%20anytime%0A%F0%9F%93%B8%20Save%20chat%20photos%20%26%20direct%20Instagram%20Reels%20links%0A%F0%9F%94%92%20Military-grade%20AES-256%20encrypted%20vault%20%28No%20server%20tracking%29%0A%0ADownload%20free%20here%3A%20https%3A%2F%2Fdhirajkumar-09.github.io%2Fms-vault_Public%2F" class="btn-share" target="_blank" rel="noopener">
+                    <span>🎁 Share with Friends</span>
+                </a>
+            </div>
+
+            <div class="trust-tags">
+                <div class="trust-tag">🔒 <b>AES-256 SQLCipher</b></div>
+                <div class="trust-tag">🛡️ <b>Hardware KeyStore</b></div>
+                <div class="trust-tag">🚫 <b>Zero Cloud Uploads</b></div>
+                <div class="trust-tag">📱 <b>Android 8.0 to 15+</b></div>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="features">
+            <h2 class="section-title">Everything You Need in One Safe Place</h2>
+            <p class="section-subtitle">Designed for extreme privacy, security, and offline reliability.</p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👁️</div>
+                    <h3>Read "This message was deleted"</h3>
+                    <p>When someone unsends or deletes a message for everyone on WhatsApp or Telegram, MsgVault keeps the original text and timestamp preserved in your private chat box.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3>Direct Instagram Reels & Photos</h3>
+                    <p>Captures real, clickable Instagram Reel URLs and keeps high-resolution photo thumbnails. Save your favorite clips without cluttering your main gallery.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>1 Persistent Chat Box Per Person</h3>
+                    <p>Organizes all incoming and outgoing messages into clean, continuous WhatsApp-style conversations with individual group member attribution.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📥</div>
+                    <h3>WhatsApp HD Status Saver</h3>
+                    <p>View and download full-resolution status photos and videos directly to your device storage before they vanish after 24 hours.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Direct WhatsApp Chat</h3>
+                    <p>Start a WhatsApp conversation with any phone number without adding them to your phone contacts list.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Biometric Fingerprint App Lock</h3>
+                    <p>Lock MsgVault behind your device fingerprint or PIN so nobody can inspect your saved notifications even if they hold your unlocked phone.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Installation Steps -->
+        <section class="steps">
+            <h2 class="section-title" style="margin-bottom: 8px;">Easy 3-Step Setup</h2>
+            <p class="section-subtitle" style="margin-bottom: 20px;">Takes less than 30 seconds to get full protection.</p>
+
+            <div class="step-list">
+                <div class="step-item">
+                    <div class="step-num">1</div>
+                    <div class="step-content">
+                        <h4>Download & Install APK</h4>
+                        <p>Tap the download button above. If your browser asks, tap "Install" or "Allow from this source".</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-num">2</div>
+                    <div class="step-content">
+                        <h4>Grant Notification Access</h4>
+                        <p>Open MsgVault and tap "Enable in Android Settings". This allows MsgVault to catch messages on your phone before deletion.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-num">3</div>
+                    <div class="step-content">
+                        <h4>You're All Set!</h4>
+                        <p>MsgVault will automatically archive incoming messages, photos, and reels safely into your offline vault.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Honest answers to common questions.</p>
+
+            <div class="faq-item">
+                <h4>Is MsgVault safe and private?</h4>
+                <p>Yes, 100%. MsgVault does NOT have any external servers to collect your messages. Everything is stored locally on your own phone inside an AES-256 SQLCipher encrypted database.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Does MsgVault drain my battery?</h4>
+                <p>No. MsgVault uses Android's native NotificationListenerService which is triggered only when a new message notification arrives. It consumes 0% battery while idle.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What if my phone says "Restricted Setting"?</h4>
+                <p>On Android 13/14+, tap the button inside MsgVault ➔ Open App Info ➔ Tap 3 dots (⋮) in the top-right corner ➔ Tap "Allow restricted settings". Then enable Notification Access.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p><b>MsgVault</b> • Developed by <a href="https://github.com/dhirajkumar-09" target="_blank">Dhiraj</a></p>
+            <p style="margin-top: 8px; font-size: 0.8rem; opacity: 0.7;">Open Distribution Release • 100% Offline Client-Side Architecture</p>
+        </footer>
+    </div>
+
+</body>
+</html>

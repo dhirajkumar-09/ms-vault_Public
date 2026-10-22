@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 24,
-  "latestVersionName": "1.2.3",
-  "releaseNotes": "📸 Photo & Instagram Reels URL Preservation Release (v1.2.3) by Dhiraj:\n• 📸 Full Conversation Photo Saving: Fixed issue where Instagram DM photos were discarded; all received chat photos are now reliably captured and preserved in conversation history.\n• 🎬 Direct Instagram Reels URLs: Captures direct Instagram Reel links (including share links, deep links, and FCM payloads) with preview thumbnails.\n• 🛡️ Enhanced InboxStyle Media Extraction: Multi-message and grouped notifications now discover and link photos, videos, and voice notes.\n• 🔒 Privacy & Security: Developer dashboard removed from public repository; strictly private and offline.\n• 💬 WhatsApp-Style Persistent Conversations: 1 persistent chat box per person and group chat with chronological order.",
+  "latestVersionCode": 25,
+  "latestVersionName": "1.2.4",
+  "releaseNotes": "🎁 Home Page Viral Share & Public Web Portal Release (v1.2.4) by Dhiraj:\n• 🎁 Home Page 'Share with Friends' Banner: Invite friends with 1 tap right from the home screen.\n• 🌐 Official Web Portal: Modern responsive landing page for instant 1-click APK downloads.\n• 📸 Full Conversation Photo Saving: 100% preservation of received chat photos.\n• 🎬 Direct Instagram Reels URLs: Captures direct reel links with preview thumbnails.\n• 💬 WhatsApp-Style Persistent Conversations: 1 chat box per person and per group.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
-  "sha256": "2545a45958236108a48ec72bae9b8ac1cff104d7cbc2f059e2e5e0fb47549a4a",
+  "sha256": "aa1d4c7438ae8a65656facb63b21c9adfbee0c73b74460a019dd31b17adf0f7d",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T16:30:00Z"
+  "publishedAt": "2026-10-22T18:45:00Z"
 }
