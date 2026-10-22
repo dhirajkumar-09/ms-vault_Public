@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 21,
-  "latestVersionName": "1.2.0",
-  "releaseNotes": "🚀 Major Stability & Chat Perfection Release (v1.2.0) by Dhiraj:\n• 🛡️ Zero Duplicate Messages: Advanced mathematical deduplication prevents duplicate chat notifications across WhatsApp, Telegram, Instagram & Messages.\n• 🎯 Default Smart Monitoring: Automatically saves WhatsApp, Instagram, Telegram & SMS by default. All other apps stay disabled until you choose.\n• 🎬 Direct Instagram Reels URLs: Captures direct canonical Reel links (instagram.com/reel/<id>/) rather than generic navigation.\n• 🖼️ WhatsApp Real Profile Photos: Displays real circular profile photos in chat threads and headers, with initial fallback.\n• ⚡ Seamless Native Installer: External cache staging prevents package parsing errors.\n• 🔒 100% Data Preservation: All existing messages, media, and keys remain completely intact.",
+  "latestVersionCode": 22,
+  "latestVersionName": "1.2.1",
+  "releaseNotes": "🎥 Chat Videos & Full Context Perfection Release (v1.2.1) by Dhiraj:\n• 🎥 Chat Video Preservation: Automatically captures and saves videos (.mp4, .3gp, .mkv, .mov) from WhatsApp, Telegram, Instagram & Messages.\n• 📧 Complete Gmail & Message Context: Captures full email subjects, complete bodies, and recipient addresses without truncation.\n• 👥 Group Member Attribution: Preserves member sender names and group threads cleanly.\n• ⭐ Gmail Enabled by Default: WhatsApp, Instagram, Telegram, Messages & Gmail are saved out of the box; all other apps configurable.\n• 🎬 In-App Video Playback & Gallery: Watch saved chat videos with play badges and share directly.\n• 🔒 100% Offline Vault: All photos, videos, and texts are stored strictly offline on your device.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T10:30:00Z"
+  "publishedAt": "2026-10-22T14:15:00Z"
 }
