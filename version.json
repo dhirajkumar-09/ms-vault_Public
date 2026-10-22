@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 29,
-  "latestVersionName": "1.2.8",
-  "releaseNotes": "🎨 Fixed Google Drive & Cloud Logos + 🚀 Max Space UI (v1.2.8):\n• 🎨 Fixed Google Drive & Cloud Icons: Fixed color overlap on Google Drive icon (perfect official geometry with #FFBA00 yellow diagonal) and corrected Google Cloud multi-color quadrant vector.\n• 🚀 Maximized Message Space: Moved 'Invite Friends' and 'VirusTotal Certified (0/68 Clean)' to the top app bar right beside the three-dot menu, freeing up ~130dp of vertical space so you can view more messages without scrolling.\n• 🛡️ 1-Tap Access: Quick access to security verification certificate and friend invitations directly from the top header.",
+  "latestVersionCode": 30,
+  "latestVersionName": "1.2.9",
+  "releaseNotes": "📷 Reliable WhatsApp Photo Saving & 👤 Unified Instagram Senders (v1.2.9):\n• 👤 Unified Instagram Chats: Fixed duplicate entries where messages were saved under 'Instagram' and the username. All Instagram chats are now strictly and cleanly unified under the contact's username.\n• 📷 Bulletproof WhatsApp Photos: Upgraded media pipeline with ContentResolver direct streaming (Scoped Storage proof on Android 10-15+), direct notification photo capture, live MediaStore ContentObserver, and extended progressive background download scans.\n• 🛡️ Auto-Healing: Legacy 'Instagram' placeholder conversations automatically heal and merge into the sender's thread on launch.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
-  "sha256": "458259462430025e17d55b51fe081580bf6fc8efa0a6170595526d21d6770f5f",
+  "sha256": "0ee22e41bc0fd7b833decc9a97b79f9dd3f4cad524a7b8f07dbea9fd342f746f",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T22:30:00Z"
+  "publishedAt": "2026-10-23T00:50:00Z"
 }
