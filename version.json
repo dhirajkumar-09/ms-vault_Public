@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 25,
-  "latestVersionName": "1.2.4",
-  "releaseNotes": "🎁 Home Page Viral Share & Public Web Portal Release (v1.2.4) by Dhiraj:\n• 🎁 Home Page 'Share with Friends' Banner: Invite friends with 1 tap right from the home screen.\n• 🌐 Official Web Portal: Modern responsive landing page for instant 1-click APK downloads.\n• 📸 Full Conversation Photo Saving: 100% preservation of received chat photos.\n• 🎬 Direct Instagram Reels URLs: Captures direct reel links with preview thumbnails.\n• 💬 WhatsApp-Style Persistent Conversations: 1 chat box per person and per group.",
+  "latestVersionCode": 26,
+  "latestVersionName": "1.2.5",
+  "releaseNotes": "🛡️ In-App Security Certificate & VirusTotal Live Verification (v1.2.5) by Dhiraj:\n• 🛡️ In-App VirusTotal Certificate: 1-tap live verification of 0/68 Clean antivirus score.\n• 🌐 Official Security & Privacy Hub: Integrated links to VirusTotal and Official Privacy Policy.\n• 🎁 Home Page 'Share with Friends' Banner: Invite friends with 1 tap right from the home screen.\n• 📸 Full Conversation Photo Saving: 100% offline preservation of received chat photos.\n• 🎬 Direct Instagram Reels URLs: Captures direct reel links with preview thumbnails.\n• 💬 WhatsApp-Style Persistent Conversations: 1 chat box per person and per group.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
-  "sha256": "aa1d4c7438ae8a65656facb63b21c9adfbee0c73b74460a019dd31b17adf0f7d",
+  "sha256": "dfce19e999616eccad34cd7f55198af5d4d6592f705b1b92584206a29295f157",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T18:45:00Z"
+  "publishedAt": "2026-10-22T20:00:00Z"
 }
