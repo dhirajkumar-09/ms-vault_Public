@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 22,
-  "latestVersionName": "1.2.1",
-  "releaseNotes": "🎥 Chat Videos & Full Context Perfection Release (v1.2.1) by Dhiraj:\n• 🎥 Chat Video Preservation: Automatically captures and saves videos (.mp4, .3gp, .mkv, .mov) from WhatsApp, Telegram, Instagram & Messages.\n• 📧 Complete Gmail & Message Context: Captures full email subjects, complete bodies, and recipient addresses without truncation.\n• 👥 Group Member Attribution: Preserves member sender names and group threads cleanly.\n• ⭐ Gmail Enabled by Default: WhatsApp, Instagram, Telegram, Messages & Gmail are saved out of the box; all other apps configurable.\n• 🎬 In-App Video Playback & Gallery: Watch saved chat videos with play badges and share directly.\n• 🔒 100% Offline Vault: All photos, videos, and texts are stored strictly offline on your device.",
+  "latestVersionCode": 23,
+  "latestVersionName": "1.2.2",
+  "releaseNotes": "💬 WhatsApp-Style Persistent Conversations & Group Attribution Release (v1.2.2) by Dhiraj:\n• 👤 1 Persistent Chat Box Per Person: Unified conversation key prevents split threads. Eliminates Instagram action noise ('sent a photo', 'shared a reel') and notification badge suffixes.\n• 👥 1 Persistent Chat Box Per Group: All messages from WhatsApp, Telegram, and other group chats stay unified under a single group box, with each member's individual name preserved as sender.\n• 📜 Complete Chronological Chat History: Ongoing incoming and outgoing messages append in exact order across app restarts and multiple sessions.\n• 🛡️ Deduplication & Zero False Deletions: Notifications are deduplicated without losing context; dismissed notifications are never marked as deleted.\n• 🎥 Photo, Video & Media Support: Full preservation of chat photos, videos, audio notes, and direct Instagram reel links.\n• 🔒 100% Offline & Encrypted: Database automatically upgraded to v8 with zero data loss guarantee.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T14:15:00Z"
+  "publishedAt": "2026-10-22T16:00:00Z"
 }
