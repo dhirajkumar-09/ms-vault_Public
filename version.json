@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 28,
-  "latestVersionName": "1.2.7",
-  "releaseNotes": "🎬 Direct Instagram Reel & 📷 WhatsApp Photos Retention (v1.2.7):\n• 🎬 Direct Instagram Reels: Direct shortcode and deep link extraction ensures clicking 'Watch Reel' opens the exact reel instead of the generic home feed, with clean fallback directly to Instagram Direct messages.\n• 📷 Reliable WhatsApp Photo Saving: Fixed deduplication to preserve every photo in chat history, expanded media scan search window to 5 minutes, added modern Android storage directories, and progressive 3-stage scanning for background downloads.\n• ☁️ Google Drive & Cloud Backup: Verified 100% offline cloud export with official Google vector badges.",
+  "latestVersionCode": 29,
+  "latestVersionName": "1.2.8",
+  "releaseNotes": "🎨 Fixed Google Drive & Cloud Logos + 🚀 Max Space UI (v1.2.8):\n• 🎨 Fixed Google Drive & Cloud Icons: Fixed color overlap on Google Drive icon (perfect official geometry with #FFBA00 yellow diagonal) and corrected Google Cloud multi-color quadrant vector.\n• 🚀 Maximized Message Space: Moved 'Invite Friends' and 'VirusTotal Certified (0/68 Clean)' to the top app bar right beside the three-dot menu, freeing up ~130dp of vertical space so you can view more messages without scrolling.\n• 🛡️ 1-Tap Access: Quick access to security verification certificate and friend invitations directly from the top header.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
-  "sha256": "227486ba28a9768689d0a63e282b9cf494867bf2ce67484d08a1b2c361a75eb0",
+  "sha256": "458259462430025e17d55b51fe081580bf6fc8efa0a6170595526d21d6770f5f",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-22T21:55:00Z"
+  "publishedAt": "2026-10-22T22:30:00Z"
 }
