@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 30,
-  "latestVersionName": "1.2.9",
-  "releaseNotes": "📷 Reliable WhatsApp Photo Saving & 👤 Unified Instagram Senders (v1.2.9):\n• 👤 Unified Instagram Chats: Fixed duplicate entries where messages were saved under 'Instagram' and the username. All Instagram chats are now strictly and cleanly unified under the contact's username.\n• 📷 Bulletproof WhatsApp Photos: Upgraded media pipeline with ContentResolver direct streaming (Scoped Storage proof on Android 10-15+), direct notification photo capture, live MediaStore ContentObserver, and extended progressive background download scans.\n• 🛡️ Auto-Healing: Legacy 'Instagram' placeholder conversations automatically heal and merge into the sender's thread on launch.",
+  "latestVersionCode": 31,
+  "latestVersionName": "1.3.0",
+  "releaseNotes": "🎬 Instagram Reels & Posts Saved + Direct Deep Links (v1.3.0):\n• 🎬 Cover Photos & Previews: Instagram Reel and Post cover images/thumbnails are now reliably captured and displayed directly inside your chat bubbles.\n• 🔗 Direct Reel Launching: Fixed deep link routing so tapping 'WATCH REEL' or 'VIEW POST' opens the exact Reel or creator's reels feed, never dumping you onto the generic Instagram home feed.\n• 💬 Direct DM Link: Tapping 'OPEN IN DM' takes you straight to the conversation in Instagram where the shared reel is waiting.\n• 🛡️ Contact Integrity: Reel cover images will no longer overwrite contacts' personal profile avatars.",
   "downloadUrl": "https://raw.githubusercontent.com/dhirajkumar-09/ms-vault_Public/main/MsgVault.apk",
-  "sha256": "0ee22e41bc0fd7b833decc9a97b79f9dd3f4cad524a7b8f07dbea9fd342f746f",
+  "sha256": "ef4514352f76a5ffea97d74637abde787870cbe42ebf8928d455a1f6712383b1",
   "forceUpdate": false,
   "developer": "Dhiraj",
-  "publishedAt": "2026-10-23T00:50:00Z"
+  "publishedAt": "2026-10-23T05:35:00Z"
 }
